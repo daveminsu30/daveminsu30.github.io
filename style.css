@@ -1,0 +1,155 @@
+.wrap {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  padding: 26px 0px 26px 3px;
+  border-style: inset;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  border-color: black;
+}
+
+.home {
+  padding-left: 30px;
+}
+
+.nav-link3 {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.nav-link1 {
+  padding-left: 160px;
+}
+
+.nav-link2 {
+  padding-left: 260px;
+}
+
+body {
+  background-color: white;
+  border-style: groove;
+  border-color: black;
+}
+
+.nav {
+  display: grid;
+  grid-gap: 20px;
+  padding-top: 0.5rem;
+  padding-left: 0.4rem;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #a6a6a6;
+  text-decoration: none;
+}
+
+.carousel {
+  width: 70%;
+  margin-left: 260px;
+  padding-top: 50px;
+}
+
+.carousel-inner>.carousel-item {
+  height: 650px;
+}
+
+.homepage {
+  text-align: center;
+  padding: 50px 60px 50px 0px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.card1 {
+  float: left;
+  margin-left: 200px;
+}
+
+.card2 {
+  float: left;
+  margin-left: 280px;
+}
+
+.card3 {
+  float: right;
+  margin-right: 200px;
+}
+
+.resumepage {
+  clear: both;
+  text-align: center;
+  padding: 50px 60px 50px 0px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.profile {
+  margin-left: 100px;
+}
+
+.profile pre {
+  float: right;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  padding-right: 250px;
+}
+
+.workplace {
+  padding-top: 25px;
+}
+
+.workplace img {
+  float: right;
+  width: 45%;
+  margin-right: 100px;
+}
+
+.workplace pre {
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  padding-left: 100px;
+}
+
+.future {
+  padding-top: 25px;
+  clear: both;
+}
+
+.future img {
+  padding-left: 100px;
+}
+
+.future pre {
+  float: right;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  padding-right: 250px;
+}
+
+.contact {
+  clear: both;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.email {
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  padding-top: 25px;
+}
